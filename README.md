@@ -4,7 +4,7 @@
 ![main] (/screenshots/main.jpg)
 
 ### Адаптивность
-![adpative] (/screenshots/adpative.jpg)
+![adaptive] (/screenshots/adaptive.jpg)
 
 ### Редактирование в административной части
 ![edit] (/screenshots/edit_news.jpg)
