@@ -1,0 +1,417 @@
+/* Default */
+*{-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}
+*::before,*::after{-moz-box-sizing:border-box;box-sizing:border-box}
+header,footer,nav,section,article,aside{display:block}
+img{border:0}
+a{color:#2db3e9;text-decoration:none}
+a:hover{text-decoration:underline;}
+html{color:#414448;font:10px Arial,sans-serif}
+body{background:url(../images/bg.png) #efefef;margin-top: 15px;margin-bottom: 15px;font-size: 12px;font-family: Arial, Helvetica, sans-serif;color: #555;}
+h1 {font-size: 18pt;color: #222;margin-bottom: 0px;}
+h2 {font-size: 14pt;color: #222;margin-bottom: 0px;}
+#for{height:auto}
+.b:link,.b:visited{color: #9F9D9D}
+/*adaptive menu*/
+.mobilenavcontainer {width: 100%;position: static;z-index: 999999;display: none;}
+.mobilenavigation {width: 420px;margin: auto;}
+nav a#pull {display: none;}
+/* Structure */
+#wrapper{margin:0 auto;max-width:1000px}
+#headers {width: 1000px;margin: auto;background: #262626;font-size: 14pt;color: #edeed5;padding: 0px;}
+#wrapper-content{overflow:hidden;padding-right:7px;margin-top: 20px}
+#container {width: 1000px;margin:0 auto;}
+#content p {margin-top: 0.3em}
+footer {width:1000px;margin:0 auto;background: #262626;color: #F1F1F1;padding: 0px;}
+.clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+.logo {float: left;}
+/*content*/
+#content {width: 582px;margin:0 auto;padding: 0px;background:url(./images/bg.png) #efefef;float:left;}
+.post-box {width: 582px;}     
+.one_col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 582px;}
+.articleinner {padding: 0 0 20px 0;}
+.thumbnailarea {position: relative;display: block;margin-bottom: 5px;}
+a.thumblink {display: block;}
+.thumbnailarea a img {width: 582px;height: auto;}
+h2.indextitle{font-family: "PT Sans Caption", arial, sans-serif;font-weight: normal;text-transform: none !important;}
+.indextitle a:link,a:visited{color: #222222}
+.indextitle a:hover {text-decoration:none;color:#CB8D17;}
+span.date {color: #9F9D9D;font-size: 11px;font-family: tahoma;}
+p{font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+p a, a {text-decoration: none;color: #CB8D17;}
+a.more-link {display: block;}
+span.more-link {background: #333;color: white;float: left;display: block;font-weight: bold;padding: 8px 10px 9px;text-decoration: none;font-size: 10px;}
+span.more-link:hover{background: #FAD400!important;color: white;}
+/*css menu*/
+#menu{width: 1000px;margin: 0 auto;}
+.cssmenu {border: none;border: 0px;margin: 0 auto;padding: 0px;font: 14px Arial,Verdana, Helvetica, sans-serif;width: 1000px;}
+.cssmenu ul {background: #262626;height: 35px;list-style: none;margin: 0;padding: 0px;}
+.cssmenu li {float: left;padding: 0px;display: inline;}
+.cssmenu li a {background: #262626 url('../images/seperator.gif') bottom right no-repeat;display: block;font-weight: bold;line-height: 35px;margin: 0px;padding: 0px 25px;text-align: center;text-decoration: none;text-transform: uppercase;}
+.cssmenu > ul > li > a {color: #fad400;}
+.cssmenu li > a:hover,#cssmenu ul li:hover > a {background: #fad400;color: #FFFFFF;text-decoration: none;text-transform: uppercase;}
+.cssmenu p {clear: left;}
+/*search*/
+#search {width: 200px;min-height: 1px !important;float: right;height: 35px;}
+form {height: 35px;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+fieldset {height: 35px;border: 0;margin: 0;padding: 0;}
+#search input#s {background: #777;color: white;font-size: 14px;font-family: "PT Sans Caption", arial, sans-serif;font-weight: normal;text-transform: capitalize;border: none;float: right;}
+input#s {height: 35px;padding: 10px;border-style: solid;border-width: 1px;border-color: gainsboro;font-size: 10px;;max-width: 418px;width:100%;margin: 0;-webkit-appearance: none;border-radius: 0px;}
+/*Right-bar*/
+#left-bar {float: right;width: 400px;padding: 0px;background:#9A9A9A; margin-bottom:20px;}
+.bar-container {text-align:left;font-family: Arial, sans-serif;padding: 0px 20px;position: relative;display: block;height: 30px;cursor: pointer;color: white;line-height: 30px;font-size: 18px;box-shadow: 0px 1px 0px 0px rgba(155, 155, 155, 0.3),0px 1px 1px 0px rgba(41, 40, 40, 0.4) inset,0px 0px 0px rgba(0, 0, 0, 0.1);}
+.bar-container:hover {background: #fad400;}
+.bar-container a{color:white;text-decoration:none}
+.bar-container a:hover{text-decoration:none;}
+.bar-main {background:#262626;text-align:center;font-family: Arial, sans-serif;padding: 0px 20px;position: relative;display: block;height: 30px;cursor: pointer;color: white;line-height: 30px;font-size: 18px;}
+.bar-main:hover {background: #fad400;}
+.bar-main a{color:white;text-decoration:none}
+.bar-main a:hover{text-decoration:none;}
+/*sidebar*/
+#sidebar {float: right;width: 400px;padding: 0px;background:#262626;}
+.ac-container{width: 400px;margin:0px auto 0px auto;text-align: left;}
+.ac-container label{font-family: Arial, sans-serif;padding: 0px 20px;position: relative;z-index: 20;display: block;height: 30px;cursor: pointer;color: white;line-height: 33px;font-size: 14px;background: #262626;box-shadow:0px 1px 0px 0px rgba(155, 155, 155, 0.3),0px 0px 0px 0px rgba(255, 255, 255, 0.8) inset,0px 0px 0px rgba(0, 0, 0, 0.1);}
+.ac-container label:hover{background: #fad400;}
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{background: #262626;color: #fad400;box-shadow:0px 0px 0px 1px rgba(155,155,155,0.3),0px 2px 2px rgba(0,0,0,0.1);}
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after{content: '';position: absolute; width: 24px;height: 24px;right: 13px;top: 7px;background: transparent url(../images/arrow_down.png) no-repeat center center;}
+.ac-container input:checked + label:hover:after{margin:0 auto;background-image: url(./images/arrow_up.png);}
+.ac-container input{display: none;}
+.ac-container article{background:#777 ;margin-top: -1px;overflow: hidden;height: 0px;position: relative;z-index: 10;transition:height 0.3s ease-in-out,box-shadow 0.6s linear;}
+.ac-container input:checked ~ article{transition:height 0.5s ease-in-out,box-shadow 0.1s linear;box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);}
+.ac-container article p{font-style: normal;color: #FFFFFF;line-height: 23px;font-size: 12px;padding: 10px;}
+.ac-container input:checked ~ article.ac-small{height: auto;}
+/* Slider */
+#slider{position: relative;overflow: hidden;padding: 0 25px;margin:0 auto;margin-top: 20px;max-width: 1000px;height: 184px;}
+#slider ul{list-style:none}
+#slider li{width: 315px;float:left;overflow:hidden;margin-right:2px;height:184px;border-top:4px solid #fad400}
+#slider figure{position:relative;height:180px}
+#slider figure figcaption{position:absolute;right:6px;bottom:5px;left:6px;padding:14px 18px;background:rgba(26,28,30,.91);color:#fff;text-transform:uppercase;font-weight:bold;font-size:1.2rem}
+#slider figure figcaption div{position:absolute;top:-20px;left:0}
+#slider figure figcaption h3 a{color:#fff}
+figure figcaption div a{float:left;margin-right:1px;padding:0 10px;height:20px;background:#fad400;color:#1a1c1e;text-transform:lowercase;font-weight:normal;font-size:1.2rem;line-height:2rem}
+#slider figure img{height:100%;position: relative;}
+#slider .prev,#slider .next{position:absolute;top:0;width:23px;height:184px;border-top:4px solid #fad400;background:url(../images/left-right.png) 4px 80px no-repeat #1a1c1e;text-indent:-9999px}
+#slider .prev{left:0}
+#slider .next{right:0;background-position:-30px 80px}
+.slider_wrapper{display: block;position: relative;height: 184px;overflow: hidden;margin: 0 auto;}
+/*admin*/
+#contain {width: 1000px;margin:0 auto;}
+.post {width: 1000px;}     
+#con {width: 1000px;margin-top: 20px;padding: 0px;background:url(../images/bg.png) #efefef;float:left;}
+.col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 1000px;}
+.articl {padding: 0 0 20px 0;}
+h2.title{font-size: 16px;font-family: "PT Sans Caption", arial, sans-serif;font-weight: normal;text-transform: none !important;}
+.title a{color: #222222}
+.title a:hover {text-decoration:none;color:#CB8D17;}
+
+/*adaptive*/
+@media screen and (max-width: 1000px) and (min-width:940px){
+#wrapper{margin:0 auto;max-width:940px}
+#headers {width: 940px;margin: auto;background: #262626;font-size: 14pt;color: #edeed5;padding: 0px;}
+#container {width: 940px;margin:0 auto;}
+footer {width:940px;margin:0 auto;background: #262626;color: #F1F1F1;padding: 0px;}
+/*content*/
+#content {width: 516px;margin:0 auto;padding: 0px;background:url(./images/bg.png) #efefef;}
+.post-box {width: 516px;}     
+.one_col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 516px;}
+.thumbnailarea a img {width: 516px;height: auto;}
+/*css menu*/
+.cssmenu {border: none;border: 0px;margin: 0 auto;padding: 0px;font: 14px Arial,Verdana, Helvetica, sans-serif;width: 940px;}
+/*search*/
+.nav {position: relative;z-index: 13; margin:0 auto;width:940px;}
+/* Slider */
+#slider{position: relative;overflow: hidden;padding: 0 25px;margin:0 auto;margin-top: 20px;max-width: 940px;height: 184px;}
+/*admin*/
+#contain {width: 940px;margin:0 auto;}
+.post {width: 940px;}     
+#con {width: 940px;margin-top: 20px;padding: 0px;background:url(../images/bg.png) #efefef;float:left;}
+.col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 940px;}
+}
+
+
+@media screen and (max-width: 940px) and (min-width:800px){
+#wrapper{margin:0 auto;max-width:800px}
+#headers {width: 800px;margin: auto;background: #262626;font-size: 14pt;color: #edeed5;padding: 0px;}
+#container {width: 800px;margin:0 auto;}
+footer {width:800px;margin:0 auto;background: #262626;color: #F1F1F1;padding: 0px;}
+/*content*/
+#content {width: 482px;margin:0 auto;padding: 0px;background:url(../images/bg.png) #efefef;}
+.post-box {width: 482px;}     
+.one_col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 482px;}
+.thumbnailarea a img {width: 482px;height: auto;}
+/*css menu*/
+.cssmenu {border: none;border: 0px;margin: 0 auto;padding: 0px;font: 14px Arial,Verdana, Helvetica, sans-serif;width: 800px;}
+.cssmenu li a {background: #262626 url('../images/seperator.gif') bottom right no-repeat;display: block;font-weight: bold;line-height: 35px;margin: 0px;padding: 0px 22px;text-align: center;text-decoration: none;text-transform: uppercase;}
+/*search*/
+.nav {position: relative;z-index: 13; margin:0 auto;width:800px;}
+/*Right-bar*/
+#left-bar {float: right;width: 300px;padding: 0px;background:#9A9A9A;}
+/*sidebar*/
+#sidebar {float: right;width: 300px;padding: 0px;background:#262626}
+.ac-container{width: 300px;margin:0px auto 0px auto;text-align: left;}
+.ac-container input:checked ~ article.ac-small{height: auto;}
+/* Slider */
+#slider{position: relative;overflow: hidden;padding: 0 25px;margin:0 auto;margin-top: 20px;max-width: 800px;height: 184px;}
+/*admin*/
+#contain {width: 800px;margin:0 auto;}
+.post {width: 800px;}     
+#con {width: 800px;margin-top: 20px;padding: 0px;background:url(./images/bg.png) #efefef;float:left;}
+.col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 800px;}
+
+}
+
+@media screen and (max-width: 800px) and (min-width:768px) {
+/* Structure */
+#wrapper{margin:0 auto;max-width:768px}
+#headers {width: 768px;margin: auto;background: #262626;font-size: 14pt;color: #edeed5;padding: 0px;}
+#container {width: 768px;margin:0 auto;}
+footer {width:768px;margin:0 auto;background: #262626;color: #F1F1F1;padding: 0px;}
+/*content*/
+#content {width: 510px;margin:0 auto;padding: 0px;background:url(./images/bg.png) #efefef;}
+.post-box {width: 510px;}     
+.one_col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 510px;}
+.thumbnailarea a img {width: 510px;height: auto;}
+/*css menu*/
+.cssmenu {border: none;border: 0px;margin: 0 auto;padding: 0px;font: 14px Arial,Verdana, Helvetica, sans-serif;width: 768px;}
+.cssmenu li a {background: #262626 url('images/seperator.gif') bottom right no-repeat;display: block;font-weight: bold;line-height: 35px;margin: 0px;padding: 0px 22px;text-align: center;text-decoration: none;text-transform: uppercase;}
+/*search*/
+.nav {position: relative;z-index: 13; margin:0 auto;width:768px;}
+/*Right-bar*/
+#left-bar {float: right;width: 250px;padding: 0px;background:#9A9A9A;}
+/*sidebar*/
+#sidebar {float: right;width: 250px;padding: 0px;background:#262626}
+.ac-container{width: 250px;margin:0px auto 0px auto;text-align: left;}
+.ac-container input:checked ~ article.ac-small{height: auto;}
+/* Slider */
+#slider{position: relative;overflow: hidden;padding: 0 25px;margin:0 auto;margin-top: 20px;max-width: 768px;height: 184px;}
+/*admin*/
+#contain {width: 768px;margin:0 auto;}
+.post {width: 768px;}     
+#con {width: 768px;margin-top: 20px;padding: 0px;background:url(./images/bg.png) #efefef;float:left;}
+.col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 768px;}
+
+}
+
+@media screen and (max-width: 768px) and (min-width:720px){
+/* Structure */
+#wrapper{margin:0 auto;max-width:700px}
+#headers {width: 700px;margin: auto;background: #262626;font-size: 14pt;color: #edeed5;padding: 0px;}
+#container {width: 700px;margin:0 auto;}
+footer {width:700px;margin:0 auto;background: #262626;color: #F1F1F1;padding: 0px;}
+/*content*/
+#content {width: 442px;margin:0 auto;padding: 0px;background:url(./images/bg.png) #efefef;}
+.post-box {width: 442px;}     
+.one_col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 442px;}
+.thumbnailarea a img {width: 442px;height: auto;}
+/*css menu*/
+.cssmenu {border: none;border: 0px;margin: 0 auto;padding: 0px;font: 14px Arial,Verdana, Helvetica, sans-serif;width: 700px;}
+.cssmenu li a {background: #262626 url('images/seperator.gif') bottom right no-repeat;display: block;font-weight: bold;line-height: 35px;margin: 0px;padding: 0px 15px;text-align: center;text-decoration: none;text-transform: uppercase;}
+/*search*/
+.nav {position: relative;z-index: 13; margin:0 auto;width:700px;}
+/*Right-bar*/
+#left-bar {float: right;width: 250px;padding: 0px;background:#9A9A9A;}
+/*sidebar*/
+#sidebar {float: right;width: 250px;padding: 0px;background:#262626}
+.ac-container{width: 250px;margin:0px auto 0px auto;text-align: left;}
+.ac-container input:checked ~ article.ac-small{height: auto;}
+/* Slider */
+#slider{position: relative;overflow: hidden;padding: 0 25px;margin:0 auto;margin-top: 20px;max-width: 700px;height: 184px;}
+/*admin*/
+#contain {width: 700px;margin:0 auto;}
+.post {width: 700px;}     
+#con {width: 700px;margin-top: 20px;padding: 0px;background:url(./images/bg.png) #efefef;float:left;}
+.col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 700px;}
+
+}
+
+@media screen and (max-width: 720px) and (min-width:600px){
+/* Structure */
+#wrapper{margin:0 auto;max-width:600px}
+#headers{width: 600px;margin: auto;background: #262626;font-size: 14pt;color: #edeed5;padding: 0px;}
+#container {width: 600px;margin:0 auto;}
+footer {width:600px;margin:0 auto;background: #262626;color: #F1F1F1;padding: 0px;margin-top: 10px;}
+/*content*/
+#content {width: 600px;float:none;margin:0 auto;padding: 0px;background:url(./images/bg.png) #efefef;}
+.post-box {width: 600px;}     
+.one_col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 600px;}
+.thumbnailarea a img {width: 600px;height: auto;}
+.indextitle a:link, a:visited {color: #222;}
+.indextitle a:hover {text-decoration:none;color:#CB8D17;}
+/*css menu*/
+.cssmenu {display:none;}
+/*adaptive menu*/
+.mobilenavcontainer {display: block;}
+.mobilenavigation {width: 600px;background: #262626;}
+ul#mobilenav {display:none;margin: 0 auto; position: relative;z-index: 100;width: 600px;font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+ul#mobilenav, #mobilenav li {list-style: none;margin: 0;font-size: 14px;line-height: 20px;}
+#mobilenav a {position: relative;display: block;padding: 5px 5px;border-bottom: 1px dotted gainsboro;text-align: left;height: 0;overflow: hidden;z-index: 1000;border-width: 0;font-size: 12px;color: #CCC;text-decoration: none;line-height: 20px;background: url('images/rightarrow.png') 95% 48% no-repeat;}
+#mobilenav:target a, #mobilenav a.display {border-bottom-width: 1px;height: 30px;padding: 9px 5px 5px 5px;line-height: 20px}
+ul#mobilenav ul {margin: 0 0 0 30px;line-height: 20px;}
+#mobilenav:target li li li a, #mobilenav li li a.display {padding-left: 20px;}
+#mobilenav a:hover {background: #f2f2f2 url(images/rightarrow.png) 97% 48% no-repeat;color:#222;}
+a#pull {font-weight: bold;font-family: Arial;padding: 10px;text-align: center;text-decoration: none;font-size: 12px;color: white;height:35px;margin:0 auto;display: block;background-color: #333;width: 600px;position: relative;}
+a#pull:after {content:"";background: url('images/nav-icon.png') no-repeat;width: 30px;height: 30px;display: inline-block;position: absolute;right: 10px;top: 7px;}
+/*sidebar*/
+#sidebar {float: none;width: 600px;padding: 0px;background:#262626;margin:0 auto;}
+.ac-container{width: 600px;margin:0px auto 0px auto;text-align: left;}
+.ac-container input:checked ~ article.ac-small{height: auto;}
+/* Slider */
+#slider{position: relative;overflow: hidden;padding: 0 25px;margin:0 auto;margin-top: 10px;max-width: 600px;height: 184px;}
+/*admin*/
+#contain {width: 600px;margin:0 auto;}
+.post {width: 600px;}     
+#con {width: 600px;margin-top: 20px;padding: 0px;background:url(./images/bg.png) #efefef;float:left;}
+.col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 600px;}
+}
+
+@media screen and (max-width: 600px) and (min-width:480px){
+/* Structure */
+#wrapper{margin:0 auto;max-width:480px}
+#headers {width: 480px;margin: auto;background: #262626;font-size: 14pt;color: #edeed5;padding: 0px;}
+#container {width: 480px;margin:0 auto;}
+footer {width:480px;margin:0 auto;background: #262626;color: #F1F1F1;padding: 0px;margin-top: 10px;}
+/*content*/
+#content {width: 480px;float:none;margin:0 auto;padding: 0px;background:url(./images/bg.png) #efefef;}
+.post-box {width: 480px;}     
+.one_col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 480px;}
+.thumbnailarea a img {width: 480px;height: auto;}
+.indextitle a:link, a:visited {color: #222;}
+.indextitle a:hover {text-decoration:none;color:#CB8D17;}
+/*css menu*/
+.cssmenu {display:none;}
+/*adaptive menu*/
+.mobilenavcontainer {display: block;}
+.mobilenavigation {width: 480px;background: #262626;}
+ul#mobilenav {display:none;margin: 0 auto; position: relative;z-index: 100;width: 480px;font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+ul#mobilenav, #mobilenav li {list-style: none;margin: 0;font-size: 14px;line-height: 20px;}
+#mobilenav a {position: relative;display: block;padding: 5px 5px;border-bottom: 1px dotted gainsboro;text-align: left;height: 0;overflow: hidden;z-index: 1000;border-width: 0;font-size: 12px;color: #CCC;text-decoration: none;line-height: 20px;background: url('images/rightarrow.png') 95% 48% no-repeat;}
+#mobilenav:target a, #mobilenav a.display {border-bottom-width: 1px;height: 30px;padding: 9px 5px 5px 5px;line-height: 20px}
+ul#mobilenav ul {margin: 0 0 0 30px;line-height: 20px;}
+#mobilenav:target li li li a, #mobilenav li li a.display {padding-left: 20px;}
+#mobilenav a:hover {background: #f2f2f2 url(images/rightarrow.png) 97% 48% no-repeat;color:#222;}
+a#pull {font-weight: bold;font-family: Arial;padding: 10px;text-align: center;text-decoration: none;font-size: 12px;color: white;height:35px;margin:0 auto;display: block;background-color: #333;width: 480px;position: relative;}
+a#pull:after {content:"";background: url('images/nav-icon.png') no-repeat;width: 30px;height: 30px;display: inline-block;position: absolute;right: 10px;top: 7px;}
+/*search*/
+.search {width: 400px;min-height: 1px !important;float: right;height: 35px;}
+form {height: 35px;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+fieldset {height: 35px;border: 0;margin: 0;padding: 0;}
+.nav .search input#s {background: #777;color: white;font-size: 14px;font-family: "PT Sans Caption", arial, sans-serif;font-weight: normal;text-transform: capitalize;border: none;float: right;}
+input#s {height: 35px;padding: 10px;border-style: solid;border-width: 1px;border-color: gainsboro;font-size: 10px;;max-width: 418px;width:100%;margin: 0;-webkit-appearance: none;border-radius: 0px;}
+.nav {position: relative;z-index: 13; margin:0 auto;width:480px;}
+/*Right-bar*/
+#left-bar {float: none;width: 480px;padding: 0px;background:#9A9A9A;}
+.bar-container a{color:white;text-decoration:none}
+/*sidebar*/
+#sidebar {float: none;width: 480px;padding: 0px;background:#262626;margin:0 auto;}
+.ac-container{width: 480px;margin:0px auto 0px auto;text-align: left;}
+.ac-container input:checked ~ article.ac-small{height: auto;}
+/* Slider */
+#slider{display:none;}
+/*admin*/
+#contain {width: 480px;margin:0 auto;}
+.post {width: 480px;}     
+#con {width: 480px;margin-top: 20px;padding: 0px;background:url(./images/bg.png) #efefef;float:left;}
+.col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 480px;}
+
+}
+
+@media screen and (max-width: 480px) and (min-width:320px){
+/* Structure */
+#wrapper{margin:0 auto;max-width:320px}
+#headers {width: 320px;margin: auto;background: #262626;font-size: 14pt;color: #edeed5;padding: 0px;}
+#container {width: 320px;margin:0 auto;}
+footer {width:320px;margin:0 auto;background: #262626;color: #F1F1F1;padding: 0px;margin-top: 10px;}
+/*content*/
+#content {width: 320px;float:none;margin:0 auto;padding: 0px;background:url(./images/bg.png) #efefef;}
+.post-box {width: 320px;}     
+.one_col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 320px;}
+.thumbnailarea a img {width: 320px;height: auto;}
+.indextitle a:link, a:visited {color: #222;}
+.indextitle a:hover {text-decoration:none;color:#CB8D17;}
+/*css menu*/
+.cssmenu {display:none;}
+/*adaptive menu*/
+.mobilenavcontainer {display: block;}
+.mobilenavigation {width: 320px;background: #262626;}
+ul#mobilenav {display:none;margin: 0 auto; position: relative;z-index: 100;width: 320px;font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+ul#mobilenav, #mobilenav li {list-style: none;margin: 0;font-size: 14px;line-height: 20px;}
+#mobilenav a {position: relative;display: block;padding: 5px 5px;border-bottom: 1px dotted gainsboro;text-align: left;height: 0;overflow: hidden;z-index: 1000;border-width: 0;font-size: 12px;color: #CCC;text-decoration: none;line-height: 20px;background: url('images/rightarrow.png') 95% 48% no-repeat;}
+#mobilenav:target a, #mobilenav a.display {border-bottom-width: 1px;height: 30px;padding: 9px 5px 5px 5px;line-height: 20px}
+ul#mobilenav ul {margin: 0 0 0 30px;line-height: 20px;}
+#mobilenav:target li li li a, #mobilenav li li a.display {padding-left: 20px;}
+#mobilenav a:hover {background: #f2f2f2 url(images/rightarrow.png) 97% 48% no-repeat;color:#222;}
+a#pull {font-weight: bold;font-family: Arial;padding: 10px;text-align: center;text-decoration: none;font-size: 12px;color: white;height:35px;margin:0 auto;display: block;background-color: #333;width: 320px;position: relative;}
+a#pull:after {content:"";background: url('images/nav-icon.png') no-repeat;width: 30px;height: 30px;display: inline-block;position: absolute;right: 10px;top: 7px;}
+/*search*/
+.search {width: 250px;min-height: 1px !important;float: right;height: 35px;}
+form {height: 35px;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+fieldset {height: 35px;border: 0;margin: 0;padding: 0;}
+.nav .search input#s {background: #777;color: white;font-size: 14px;font-family: "PT Sans Caption", arial, sans-serif;font-weight: normal;text-transform: capitalize;border: none;float: right;}
+input#s {height: 35px;padding: 10px;border-style: solid;border-width: 1px;border-color: gainsboro;font-size: 10px;;max-width: 418px;width:100%;margin: 0;-webkit-appearance: none;border-radius: 0px;}
+.nav {position: relative;z-index: 13; margin:0 auto;width:320px;}
+/*Right-bar*/
+#left-bar {float: none;width: 320px;padding: 0px;background:#9A9A9A;}
+.bar-container a{color:white;text-decoration:none}
+/*sidebar*/
+#sidebar {float: none;width: 320px;padding: 0px;background:#262626;margin:0 auto;}
+.ac-container{width: 320px;margin:0px auto 0px auto;text-align: left;}
+.ac-container input:checked ~ article.ac-small{height: auto;}
+/* Slider */
+#slider{display:none;}
+/*admin*/
+#contain {width: 320px;margin:0 auto;}
+.post {width: 320px;}     
+#con {width: 320px;margin-top: 20px;padding: 0px;background:url(./images/bg.png) #efefef;float:left;}
+.col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 320px;}
+
+}
+@media screen and (max-width: 320px) and (min-width:240px){
+/* Structure */
+#wrapper{margin:0 auto;max-width:240px}
+#headers {width: 240px;margin: auto;background: #262626;font-size: 14pt;color: #edeed5;padding: 0px;}
+#container {width: 240px;margin:0 auto;}
+footer {width:240px;margin:0 auto;background: #262626;color: #F1F1F1;padding: 0px;margin-top: 10px;}
+/*content*/
+#content {width: 240px;float:none;margin:0 auto;padding: 0px;background:url(./images/bg.png) #efefef;}
+.post-box {width: 240px;}     
+.one_col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 240px;}
+.thumbnailarea a img {width: 240px;height: auto;}
+.indextitle a:link, a:visited {color: #222;}
+.indextitle a:hover {text-decoration:none;color:#CB8D17;}
+/*css menu*/
+.cssmenu {display:none;}
+/*adaptive menu*/
+.mobilenavcontainer {display: block;}
+.mobilenavigation {width: 240px;background: #262626;}
+ul#mobilenav {display:none;margin: 0 auto; position: relative;z-index: 100;width: 240px;font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+ul#mobilenav, #mobilenav li {list-style: none;margin: 0;font-size: 14px;line-height: 20px;}
+#mobilenav a {position: relative;display: block;padding: 5px 5px;border-bottom: 1px dotted gainsboro;text-align: left;height: 0;overflow: hidden;z-index: 1000;border-width: 0;font-size: 12px;color: #CCC;text-decoration: none;line-height: 20px;background: url('images/rightarrow.png') 95% 48% no-repeat;}
+#mobilenav:target a, #mobilenav a.display {border-bottom-width: 1px;height: 30px;padding: 9px 5px 5px 5px;line-height: 20px}
+ul#mobilenav ul {margin: 0 0 0 30px;line-height: 20px;}
+#mobilenav:target li li li a, #mobilenav li li a.display {padding-left: 20px;}
+#mobilenav a:hover {background: #f2f2f2 url(images/rightarrow.png) 97% 48% no-repeat;color:#222;}
+a#pull {font-weight: bold;font-family: Arial;padding: 10px;text-align: center;text-decoration: none;font-size: 12px;color: white;height:35px;margin:0 auto;display: block;background-color: #333;width: 240px;position: relative;}
+a#pull:after {content:"";background: url('images/nav-icon.png') no-repeat;width: 30px;height: 30px;display: inline-block;position: absolute;right: 10px;top: 7px;}
+/*search*/
+.search {width: 200px;min-height: 1px !important;float: right;height: 35px;}
+form {height: 35px;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+fieldset {height: 35px;border: 0;margin: 0;padding: 0;}
+.nav .search input#s {background: #777;color: white;font-size: 14px;font-family: "PT Sans Caption", arial, sans-serif;font-weight: normal;text-transform: capitalize;border: none;float: right;}
+input#s {height: 35px;padding: 10px;border-style: solid;border-width: 1px;border-color: gainsboro;font-size: 10px;;max-width: 418px;width:100%;margin: 0;-webkit-appearance: none;border-radius: 0px;}
+.nav {position: relative;z-index: 13; margin:0 auto;width:320px;}
+/*Right-bar*/
+#left-bar {float: none;width: 240px;padding: 0px;background:#9A9A9A;}
+.bar-container a{color:white;text-decoration:none}
+/*sidebar*/
+#sidebar {float: none;width: 240px;padding: 0px;background:#262626;margin:0 auto;}
+.ac-container{width: 240px;margin:0px auto 0px auto;text-align: left;}
+.ac-container input:checked ~ article.ac-small{height: auto;}
+/* Slider */
+#slider{display:none;}
+/*admin*/
+#contain {width: 240px;margin:0 auto;}
+.post {width: 240px;}     
+#con {width: 240px;margin-top: 20px;padding: 0px;background:url(./images/bg.png) #efefef;float:left;}
+.col {border: 0;border-bottom: 1px solid gainsboro;margin-right: 0;margin-bottom: 15px;padding: 0;width: 240px;}
+}
